@@ -5,7 +5,7 @@ public class Main {
         SalesManager max = new SalesManager(sales);
         long maxFin = max.max();
         SalesManager average = new SalesManager(sales);
-        int averageFin = average.averageSales();
+        long averageFin = average.averageSales();
         System.out.println("Максимальное количество продаж составляет: " + maxFin);
         System.out.println("Среднее количество продаж составляет: " + averageFin);
     }
